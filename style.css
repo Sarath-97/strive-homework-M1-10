@@ -1,3 +1,37 @@
+body{
+    max-width: auto;
+    
+}
+
+h1{
+    text-align: center;
+    color: grey;
+}
+
+a{
+    color:green;
+}
 table, th, td {
-    border: 1px solid black;
+    margin:auto;
+    border: 5px dotted black;
+
+  }
+  table{
+      padding: 20px;
+    border-radius: 30px;
+  }
+  td{
+      border: 2px solid green;
+  }
+
+  #container{
+    border: 2px solid green;
+
+  }
+  
+  p{
+      margin: 10px;
+      font-weight: bold;
+      font-size: 2em;
+      display: hidden;
   }
